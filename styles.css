@@ -48,13 +48,14 @@ header nav ul {
   font-size: 20px;
   padding: 20px;
   background: #0d351f;
-  border: solid 1px white;
   color: #ffffff;
+  border-radius: 15px;
 }
 
 #main-container img {
   width: 80vh;
   margin: 20px 0;
+  border-radius: 15px;
 }
 
 #main-container h2 {
@@ -73,12 +74,12 @@ header nav ul {
 #historia-container p {
   padding: 50px;
   color: white;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 #historia-container img {
   width: 70vh;
-  padding: 50px;
+  border-radius: 15px;
 }
 
 #palmares-container {
@@ -91,12 +92,12 @@ header nav ul {
 #palmares-container p {
   padding: 50px;
   color: white;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 #palmares-container img {
   width: 70vh;
-  padding: 50px;
+  border-radius: 15px;
 }
 
 #leyendas-container {
@@ -126,13 +127,36 @@ h2 {
 
 #equipos-container img {
   width: 45vh;
+  border-radius: 15px;
 }
 
 #informacion-final {
   margin: 50px 130px;
-    font-size: 16px;
-    padding: 20px;
-    background: #0d351f;
-    border: solid 1px white;
-    color: #ffffff;
+  font-size: 16px;
+  padding: 20px;
+  background: #0d351f;
+  color: #ffffff;
+  border-radius: 15px;
+}
+
+#estadio-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#estadio-container img {
+  width: 500px;
+  margin: 50px;
+  border-radius: 15px;
+}
+
+#informacion-estadio {
+  margin: 35px 130px;
+  font-size: 16px;
+  padding: 20px;
+  background: #0d351f;
+  color: #ffffff;
+  border-radius: 15px;
 }
