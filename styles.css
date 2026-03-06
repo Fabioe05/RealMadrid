@@ -37,10 +37,6 @@ header nav ul {
   width: 100%;
 }
 
-img {
-  width: 80vh;
-}
-
 #main-container {
   display: flex;
   flex-direction: column;
@@ -56,8 +52,87 @@ img {
   color: #ffffff;
 }
 
+#main-container img {
+  width: 80vh;
+  margin: 20px 0;
+}
+
 #main-container h2 {
   color: aliceblue;
   font-family: cursive;
-  margin: 0 80px;
+  margin: 40px 80px;
+}
+
+#historia-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 40px 30px 0 30px;
+}
+
+#historia-container p {
+  padding: 50px;
+  color: white;
+  font-size: 16px;
+}
+
+#historia-container img {
+  width: 70vh;
+  padding: 50px;
+}
+
+#palmares-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px 30px 0 30px;
+}
+
+#palmares-container p {
+  padding: 50px;
+  color: white;
+  font-size: 16px;
+}
+
+#palmares-container img {
+  width: 70vh;
+  padding: 50px;
+}
+
+#leyendas-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#leyendas-container img {
+  width: 50vh;
+}
+
+h2 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+  margin: 30px;
+}
+
+#equipos-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 50px;
+}
+
+#equipos-container img {
+  width: 45vh;
+}
+
+#informacion-final {
+  margin: 50px 130px;
+    font-size: 16px;
+    padding: 20px;
+    background: #0d351f;
+    border: solid 1px white;
+    color: #ffffff;
 }
